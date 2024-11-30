@@ -1,0 +1,166 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: var(--light);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+.navbar {
+  background: var(--gradient-primary) !important;
+  padding: 20px 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.navbar-brand {
+  color: var(--white) !important;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.nav-link {
+  color: var(--white) !important;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.5rem 1rem !important;
+  transition: color var(--transition-speed) ease;
+}
+
+.nav-link:hover {
+  color: var(--light) !important;
+}
+
+.badge {
+  background-color: var(--accent) !important;
+  color: var(--white) !important;
+  border-radius: 50%;
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.card {
+  transition: all var(--transition-speed) ease;
+  animation: fadeIn 0.5s ease-out;
+  border: none;
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
+  background: var(--white);
+  box-shadow: var(--shadow-sm);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-md);
+}
+
+.card-img-top {
+  border-radius: 0;
+  background-color: var(--white);
+  transition: transform 0.5s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 15px;
+  text-align: left;
+}
+
+.card-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: var(--primary-dark);
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: var(--accent) !important;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.btn {
+  border-radius: var(--border-radius-sm);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: all var(--transition-speed) ease;
+}
+
+.btn-primary {
+  background: var(--gradient-primary);
+  border: none;
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background: var(--secondary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--primary);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
+.shop-all-container {
+  margin: 40px 0;
+}
+
+.shop-all-container .btn {
+  width: 200px;
+}
+
+.featured-section {
+  background: var(--gradient-light);
+  padding: 40px 0;
+  margin: 40px 0;
+  border-radius: var(--border-radius-lg);
+}
+
+.price-tag {
+  background: var(--accent);
+  color: var(--white);
+  padding: 5px 10px;
+  border-radius: var(--border-radius-sm);
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: var(--accent);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes fadeIn {
+  from { 
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

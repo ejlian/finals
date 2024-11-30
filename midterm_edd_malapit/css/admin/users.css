@@ -1,0 +1,19 @@
+.search-users {
+    margin-bottom: 2rem;
+}
+
+.search-users .form-control {
+    max-width: 400px;
+}
+
+.table th {
+    background-color: var(--bs-light);
+}
+
+.action-buttons .btn {
+    margin-right: 0.5rem;
+}
+
+.action-buttons .btn:last-child {
+    margin-right: 0;
+} 

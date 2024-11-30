@@ -1,0 +1,455 @@
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.table th {
+    font-weight: 500;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+.admin-dashboard .stats-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.admin-dashboard .stats-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.admin-dashboard .stats-label {
+    color: #6c757d;
+    font-size: 0.875rem;
+}
+
+.navbar {
+    background-color: #1a1a1a !important;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff !important;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.dropdown-menu {
+    background-color: #1a1a1a;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-item {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0.5rem 1.5rem;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.dropdown-divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.badge {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.card {
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+
+.table th {
+    font-weight: 600;
+}
+
+.btn-primary {
+    font-weight: 500;
+}
+
+.stats-card {
+    transition: transform .2s;
+}
+
+.stats-card:hover {
+    transform: translateY(-2px);
+}
+
+.profile-card {
+    margin-bottom: 2rem;
+}
+
+.profile-header {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.profile-header h2 {
+    margin: 0;
+    color: #333;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.dropdown-toggle::after {
+    margin-left: 0.5em;
+}
+
+.dropdown-menu {
+    min-width: 200px;
+    padding: 0.5rem 0;
+    margin-top: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.dropdown-item {
+    padding: 0.5rem 1.5rem;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.btn-dark.dropdown-toggle {
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+.btn-dark.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+/* Dropdown styles */
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    right: 0;
+    left: auto;
+    margin-top: 0.5rem;
+}
+
+.dropdown-item {
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.nav-link.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.5em;
+    vertical-align: middle;
+}
+
+/* Active state for dropdown */
+.dropdown-item:active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.profile-picture {
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.profile-picture:hover {
+    transform: scale(1.05);
+}
+
+.nav-link .rounded-circle {
+    border: 2px solid #fff;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.nav-link:hover .rounded-circle {
+    transform: scale(1.1);
+}
+
+.dropdown-menu {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.navbar .nav-item .dropdown-toggle img {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transition: border-color 0.3s ease;
+}
+
+.navbar .nav-item .dropdown-toggle:hover img {
+    border-color: #fff;
+}
+
+.dropdown-menu {
+    margin-top: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.nav-item .btn-link {
+    color: rgba(255,255,255,.55);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+.nav-item .btn-link:hover,
+.nav-item .btn-link:focus {
+    color: rgba(255,255,255,.75);
+}
+
+.nav-item.dropdown .dropdown-menu {
+    margin-top: 0.5rem;
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+.navbar .rounded-circle {
+    border: 2px solid rgba(255,255,255,0.5);
+}
+
+.nav-item .dropdown-toggle {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    color: rgba(255,255,255,.55);
+}
+
+.nav-item .dropdown-toggle:hover,
+.nav-item .dropdown-toggle:focus {
+    color: rgba(255,255,255,.75);
+}
+
+.nav-item .dropdown-toggle img {
+    border: 2px solid rgba(255,255,255,.3);
+    transition: border-color 0.2s ease;
+}
+
+.nav-item .dropdown-toggle:hover img {
+    border-color: rgba(255,255,255,.6);
+}
+
+.dropdown-menu {
+    margin-top: 0.5rem !important;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+.profile-picture {
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.profile-picture:hover {
+    transform: scale(1.05);
+}
+
+.profile-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border: 2px solid rgba(255,255,255,0.5);
+    transition: border-color 0.3s ease;
+}
+
+.nav-item .nav-link:hover .profile-icon {
+    border-color: rgba(255,255,255,0.6);
+}
+
+.dropdown-menu {
+    margin-top: 0.5rem !important;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+.navbar .nav-item.dropdown {
+    margin-left: 1rem;
+}
+
+.profile-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transition: border-color 0.3s ease;
+}
+
+.nav-item .dropdown-toggle:hover .profile-icon {
+    border-color: #fff;
+}
+
+.dropdown-menu {
+    margin-top: 8px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.nav-item.dropdown .btn.nav-link {
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-item.dropdown .btn.nav-link:focus {
+    box-shadow: none;
+}
+
+.nav-item.dropdown .btn.nav-link:hover .profile-icon {
+    border-color: #fff;
+}
+
+.card {
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;
+}
+
+.table-responsive {
+    margin: 0;
+}
+
+.top-products .card {
+    transition: transform 0.2s;
+}
+
+.top-products .card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.stats-card {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.stats-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4e73df;
+}
+
+.stats-label {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #858796;
+}
+
+.product-card {
+    background: #fff;
+    border: 1px solid #e3e6f0;
+    border-radius: 0.35rem;
+    transition: all 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+}
+
+.product-card img {
+    padding: 0.5rem;
+    height: 70px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.product-card .card-body {
+    padding: 0.5rem 1rem;
+}
+
+.product-card .card-title {
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+}
+
+.product-card .text-muted {
+    font-size: 0.8rem;
+}
+
+.status-select {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.2rem;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.status-select option[value="Pending"] {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.status-select option[value="Processing"] {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.status-select option[value="Shipped"] {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.status-select option[value="Delivered"] {
+    background-color: #6c757d;
+    color: #fff;
+}

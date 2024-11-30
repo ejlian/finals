@@ -1,0 +1,23 @@
+:root {
+
+  --primary-dark: #031716;
+  --primary: #032F30;
+  --secondary: #0A7075;
+  --accent: #0C969C;
+  --light: #6BA3BE;
+  --dark: #274D60;
+  --white: #ffffff;
+
+  --shadow-sm: 0 2px 4px rgba(3, 23, 22, 0.1);
+  --shadow-md: 0 4px 8px rgba(3, 23, 22, 0.2);
+  --shadow-lg: 0 8px 32px rgba(3, 23, 22, 0.2);
+  
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 15px;
+  
+  --transition-speed: 0.3s;
+  
+  --gradient-primary: linear-gradient(145deg, var(--primary), var(--secondary));
+  --gradient-light: linear-gradient(145deg, var(--light), var(--white));
+} 

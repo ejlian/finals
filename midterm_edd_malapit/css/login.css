@@ -1,0 +1,201 @@
+body {
+  background: var(--gradient-primary);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 50px 60px;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-lg);
+  animation: fadeIn 0.5s ease-out;
+}
+
+.store-logo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.store-logo img {
+  width: 150px;
+  height: auto;
+  filter: brightness(0) invert(1);
+  animation: float 1s ease-in-out infinite;
+}
+
+.nav-tabs {
+  border: none;
+  margin-bottom: 40px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.nav-tabs .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  position: relative;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.nav-tabs .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.nav-tabs .nav-link.active {
+  color: var(--white);
+  background: none;
+}
+
+.nav-tabs .nav-link.active::after {
+  transform: scaleX(1);
+}
+
+.nav-tabs .nav-link:hover {
+  color: var(--white);
+}
+
+.form-label {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--border-radius-sm);
+  padding: 14px 16px;
+  width: 100%;
+  color: var(--white);
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 14px;
+  background: var(--accent);
+  border: none;
+  border-radius: var(--border-radius-sm);
+  color: var(--white);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  margin-top: 30px;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background: var(--secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.alert {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: var(--white);
+  border-radius: var(--border-radius-sm);
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.alert-danger {
+  background: rgba(220, 53, 69, 0.2);
+  border-left: 3px solid #dc3545;
+}
+
+.mb-3 {
+  margin-bottom: 20px;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 500px;
+  }
+  
+  .form-container {
+    padding: 40px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 100%;
+    padding: 15px;
+  }
+  
+  .form-container {
+    padding: 30px 20px;
+  }
+  
+  .store-logo img {
+    width: 120px;
+  }
+}
